@@ -9,9 +9,11 @@
 main{
     display: flex;
     flex-direction: column;
-    
-    
+    width: 100 vw;
+    height: 100 vh;
+        
 }
+
 #wrapper{
     display: flex;
     width: 930px;
@@ -44,6 +46,7 @@ main{
     width: 310px;
     height: 500px;
 }
+
 #suvs button{
     color: hsl(184, 100%, 22%);
 }
@@ -55,6 +58,7 @@ main{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
 #luxury button {
     color: hsl(179, 100%, 13%);
 }
@@ -69,7 +73,6 @@ h1{
     font-family: 'Big Shoulders Display', cursive;
     
     margin: 40px auto 0 41px;
-    
     
 }
 
@@ -92,7 +95,7 @@ button{
     border-radius: 25px;
 
     margin: 0 0 0 48px;
-    /*147x48*/
+    
 
 }
 
@@ -105,3 +108,52 @@ button{
 .attribution a {
     color: hsl(228, 45%, 44%);
     }
+
+
+@media only screen and (max-width: 375px) {
+    
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        height: 1335px;
+        margin-top: 88px;
+        padding-bottom: 88px;
+        
+    
+    }
+
+    #sedans{
+        width: 330px;
+        height: 445px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        
+    }
+
+    #suvs{
+        
+        width: 330px;
+        height: 445px;
+    }
+    
+    #luxury{
+        
+        width: 330px;
+        height: 445px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0px;
+        
+    }
+
+    h1{
+        margin: 41px 0px 0px 50px;
+    }
+
+    p{
+        margin: 38px 56px 29px 48px;
+    }
+    
+}
