@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [](https://mahefasolofo.github.io/3-column-preview-card-component-main/)
 
 
 ## My process
